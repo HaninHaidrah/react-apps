@@ -12,7 +12,7 @@ class SelectedBeasts extends React.Component {
             <Modal.Title>{this.props.selectedBeasts.title}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <img src={this.props.selectedBeasts.image_url} className="img-fluid"/>
+            <img src={this.props.selectedBeasts.image_url} alt="" className="img-fluid"/>
             The Description :{this.props.selectedBeasts.description} 
           </Modal.Body>
           <Modal.Footer>
