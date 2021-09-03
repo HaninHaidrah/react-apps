@@ -12,6 +12,7 @@ class HornedBeast extends React.Component {
     this.setState({
       numberOfVoting: this.state.numberOfVoting + 1,
     });
+    this.props.display(this.props.title)
   };
   render() {
     return (
