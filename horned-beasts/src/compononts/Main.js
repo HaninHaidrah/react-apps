@@ -12,6 +12,7 @@ class Main extends React.Component {
               description={value.description}
               keyword={value.keyword}
               horns={value.horns}
+              display={this.props.display}
             />
           );
         })}
